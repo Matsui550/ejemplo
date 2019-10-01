@@ -1,0 +1,33 @@
+body{
+    margin: auto;
+}
+
+.menuvar-left{
+    margin-left: 80px;
+}
+
+.menuitem-top{
+    padding: 10px;
+}
+
+.aitem{
+    margin-left: 35px;
+}
+
+.logo{
+    width:70%;
+}
+
+.dropmenu-op{
+    background-color: rgb(248, 245, 245);
+    opacity: 0.9;
+}
+
+.cubos{
+    background-color: whitesmoke;
+    margin-top: 10px;
+    padding: 45px;
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
