@@ -1,33 +1,171 @@
-body{
-    margin: auto;
+/* IMAGEN DE LOGO */
+.logo{
+    width: 100%;
 }
 
+/* IMAGEN DE FONFO EN CONTENIDO */
+.back{
+    background-color: white;
+    width: 100%;
+}
+
+/* CSS PARA COLUMNAS DE CONTENIDO */
+.col-frt{
+    background-color: transparent;
+    opacity: 0.9; 
+    padding: 39px; 
+    margin-left: 0px;
+}
+
+/* CSS PARA COLUMNAS DE CONTENIDO */
+.col-scond{
+    background-color: transparent; 
+    opacity: 0.9; 
+    padding: 29px;
+    margin-left: 0px;
+}
+
+/* CSS PARA COLUMNAS DE CONTENIDO */
+.cubo-tab{
+    
+    opacity: 0.8;
+    padding: 5px;
+    color: black;
+}
+
+/* AGREGA CSS AL H3 QUE ESTEN DENTRO DE CUBO-TAB */
+.cubo-tab h3{
+    font-size: 20pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+/* COLOR DE BARRA MENU Y FOOTER */
+.menu-foot{
+    background-color: #0ba322;
+}
+
+/* CSS PARA MOVER CONTENIDO DEL MENU A DERECHA */
 .menuvar-left{
-    margin-left: 80px;
+    margin-left: 36px;
+    font-size: 16pt;
 }
 
+/* CSS PARA MENU VERTICAL UL */
 .menuitem-top{
-    padding: 10px;
+    padding: 0px;
 }
 
+/* CSS PARA ELEMENTOS DE MENU VERTICAL LI */
 .aitem{
     margin-left: 35px;
 }
 
-.logo{
-    width:70%;
-}
-
+/* AGREGA TRASPARENCIA AL SUBMENU */
 .dropmenu-op{
     background-color: rgb(248, 245, 245);
     opacity: 0.9;
 }
 
+/* CSS PARA DIV'S DE LA IZQUIERDA */
 .cubos{
-    background-color: whitesmoke;
-    margin-top: 10px;
+    background-color: rgb(11, 240, 106);
+    /*opacity: 0.8;*/
+    border-radius: 5px;
+    margin-top: 15px;
     padding: 45px;
     text-align: center;
     font-size: 20pt;
     font-family: 'Times New Roman', Times, serif;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
+
+/* CSS PARA LOS TEXTOS DE CUBOS */
+p{  
+    padding: 15px;
+    color: black;
+    text-align: center;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*
+.caja{
+    margin-left: -15px;
+    width: 100%;
+}
+
+.logopar{
+    background-image: url(../img/finanzass.jpg);
+    width: 50%;
+}
+
+.caja{
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
+@media (min-width:576px){
+    .container{max-width:540px}
+}
+@media (min-width:768px){
+    .container{max-width:720px}
+}
+@media (min-width:992px){
+    .container{max-width:960px}
+}
+@media (min-width:1200px){
+    .container{max-width:1140px}
+}
+.container-fluid{
+    width:100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
+
+.caja-header{
+    margin-right: 95px;
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+.logo{
+    width:100%;
+}
+
+.cubo-img{
+    background-color: #0ba322;
+    opacity: 0.8;
+    block-size: 25%;
+    border-radius: 5px;
+    margin-right: 70%;
+    margin-top: -200px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.contenedor{
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 101%;
+}
+
+.contenedor2{
+    margin-right: 0px;
+    padding-right: 0px;
+    width: 100%;
+}
+
+.fondo{
+    height: 400px;
+}
+*/
