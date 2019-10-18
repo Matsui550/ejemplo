@@ -24,7 +24,7 @@
                 <img src="img/logo.png" alt="logo" class="img-fluid logo">
             </di>
             <di class="col-sm-6">
-                <img src="img/finanzass2.jpg" alt="logo" class="img-fluid logo">
+                <a href=""><img src="img/finanzass2.jpg" alt="logo" class="img-fluid logo"></a>
             </di>
         </div>
     </div>
@@ -169,18 +169,28 @@
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div id="home" class="container tab-pane active"><br>
-                            <h3>HOME</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua.</p>
+                            <h3>Bienvenido</h3>
+                            <p class="tabs">Si deseas afiliarte a nuestra cooperativa, sigue los siguientes pasos:
+                                <ul>
+                                    <li>Descarga el archivo dando un click sobre el icono.</li>
+                                    <li>Imprimelo y llena la solicitud de admision.</li>
+                                    <li>Tomale una captura a la hoja y que se pueda ver el formulario con sus campos
+                                        llenos y la firma del solicitante.</li>
+                                    <li>En la parte superior izquierda esta el correo donde puedes enviar la imagen de
+                                        la solicitud y listo.</li>
+                                </ul>
+                            </p>
+                            <div class="container">
+                                <a href="pdf/SOLICITUD DE ADMISION COOPERATIVA IDEAL DEL PUEBLO1.pdf" download>
+                                    <img src="img/pdf.png" alt="">
+                                </a>
+                            </div>
                             <br>
-                            <form>
-                                <div class="form-group">
-                                    <label for="exampleFormControlFile1">Example file input</label>
-                                    <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                                </div>
-                            </form><br>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                Enviar Documento
+                            </button>
+
                         </div>
                         <div id="menu1" class="container tab-pane fade cubo-tab"><br>
                             <h3>Menu 1</h3>
@@ -220,6 +230,31 @@
                 <biggest><span>Copyright &copy; Mejia, Rafael</span></biggest>
             </div>
         </footer>
+    </div>
+
+    <!-- MODALS -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Enviar Archivo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="enviar.php" method="POST">
+                        seleciona la Imagen: <input type="file" name="myFile" id="" multiple required><br>
+                        <button type="submit" class="btn btn-primary">Enviar</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- SCRIPTS -->
